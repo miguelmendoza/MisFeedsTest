@@ -1,0 +1,81 @@
+@media screen and (min-width: 624px){
+    .wdg_scroll_dropdown{
+        width: 624px;
+        height: auto;
+        display: block;
+        margin-bottom: 0px;
+    }
+    .wdg_scroll_dropdown{
+        height: 32px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_pleca p{
+        margin-left: 24px;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_list {
+        cursor: pointer;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_value{
+        position: relative;
+        float: left;
+        margin-left: 24px;
+        width: 81%;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click{
+        position: relative;
+        width: 10%;
+        height: 32px;
+        float: right;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+        margin-left: 12px;
+        color: #ffffff;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events{
+        width: 100%;
+        position: relative;
+        clear: both;
+        height: 0px;
+        background-color: #d3d3d3;
+        visibility: hidden;
+        overflow: hidden;
+        z-index: 500;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li p{
+        padding-left: 24px;
+    }
+    .wdg_scroll_dropdown > div:first-child{
+        float: left;
+        width: 298px;
+        height: 32px;
+        line-height: 32px;
+        clear: none;
+    }
+	
+	.wdg_scroll_dropdown .wdg_scroll_list{
+		width:326px;
+		clear:none;
+	}
+}

@@ -1,0 +1,44 @@
+@media screen and (min-width: 624px){
+    .wdg_goals_by_team_01{
+        width: 624px;
+        display: block;
+        margin-bottom: 36px;
+    }
+	
+	.wdg_goals_by_team_01 .pleca_superior{
+		height:32px;
+	}
+	
+	.wdg_goals_by_team_01 .background-color1 {
+		height: 31px;
+		width: 48%;
+	}
+	
+	.wdg_goals_by_team_01 .wdg_goals_by_team_01_dropdown {
+		width: 322px;
+	}
+	
+	.wdg_goals_by_team_01 .wdg_goals_by_team_01_listcontainer ul li {
+		width: 300px;
+	}
+	
+	.wdg_goals_by_team_01 .hseparator,
+	.wdg_goals_by_team_01 .renglon .separator{
+		display: block;
+	}
+
+	.wdg_goals_by_team_01 .last_container{
+		margin-bottom: 66px;
+	}
+	.wdg_goals_by_team_01 .last_container_block{
+		margin-bottom: 66px;
+		border-bottom: 1px solid #ccc;
+	}
+	.wdg_goals_by_team_01 .last_container2{
+		margin-bottom: 66px;
+		border-bottom: 1px solid #ccc;
+	}
+	.wdg_goals_by_team_01 .last_block{
+        margin-bottom: 0px;
+    }
+}

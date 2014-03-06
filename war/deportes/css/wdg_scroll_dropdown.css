@@ -1,0 +1,25 @@
+@media screen and (min-width: 948px){
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_events{
+        z-index: 2000 !important;
+        display: block;
+    }
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_events{
+        position: absolute;
+        margin-top: 32px;
+        overflow: hidden;
+        width: 312px;;
+    }
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_elements{
+        z-index: 2000 !important;
+    }
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_elements{
+        z-index: 2000 !important;
+    }
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    }  
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    }
+
+}
