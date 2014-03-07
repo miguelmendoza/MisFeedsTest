@@ -26,6 +26,13 @@ menuDropdown({
             "descripcionSEO": "",
             "keywords": "",
             "comscore": ""
+        },
+        {
+            "nameEstadisticas": "Goleo por Equipo",
+            "controlador": "goalsbyteam",
+            "descripcionSEO": "",
+            "keywords": "",
+            "comscore": ""
         }
        
     ]

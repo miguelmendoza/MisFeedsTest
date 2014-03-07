@@ -44,11 +44,11 @@
             case 'mundial': html = createHTML_Mundial( objSettings, data_groups, data_teams ); break;
         }
         
-        $objGlobal.addClass('wdg_teams_classification_01').attr("data-enhance","false");
-        
-        $objGlobal.delay( 8000 ).html( html );
+        $objGlobal.addClass('wdg_teams_classification_01')
+            .attr("data-enhance","false").delay( 8000 )
+            .html( html ).children('div').fadeIn( 4000 );
+
         $(".g_A").show();
-        $objGlobal.children('div').fadeIn( 4000 );
         funciones($);
     };
     
@@ -76,11 +76,10 @@
     };
     
     var token_teams = function ( objSettings, $objGlobal, data_groups ) {
-        console.log( typeof( objSettings.test ) );
         var domain = ( objSettings.test ) 
         	? 'http://feeds-miportal.appspot.com/data/teamsclassification.js' 
        			: 'http://static-televisadeportes.esmas.com/sportsdata/futbol/data/'+objSettings.idTorneo+'/teamsclassification.js';
-        console.log( domain );
+
         $.ajax({
             type: 'GET',
             url: domain,
@@ -182,13 +181,12 @@
         				}
         			}
         		}
-          	}
+          }
         }
         
         var groupID = ["A","B","C","D"];
 
         $.each( groupID, function(i, item){
-        	
         	combo += '<li id="list_'+item+'" ><p>Grupo '+item+'</p></li>';
         	if( grupos[item] ) {
         		grupos[item].sort( function(a,b){return b.dataEstadisticas.PTS - a.dataEstadisticas.PTS;});
@@ -203,10 +201,8 @@
 	          	    items += '<td class="der textcolor-title2">'+data.dataEstadisticas.PTS+'</td>';
 	          	  	items += '</tr>';
 	        	});
-        	
         	}
         });
-
 
         html += '<div class="str_pleca_01">';
             html += '<div class="str_pleca_01_title">';

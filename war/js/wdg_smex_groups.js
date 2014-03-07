@@ -78,8 +78,7 @@
         var html = "";
 
         html = createHTML( $objGlobal, objSettings, data_Fases , data_grupos );
-        $objGlobal.delay( 8000 ).html( html );
-        $objGlobal.children('div').fadeIn( 4000 );
+        $objGlobal.delay( 1000 ).html( html ).addClass("wdg_smex_groups_01").css("display","none").fadeIn( 1000 );
     }
     
     
@@ -102,7 +101,6 @@
             }
         }
         
-        html += '<div class="wdg_smex_groups_01" data-enhance="false" style="display:none">';
           html += '<div class="scroll">';
         
           for( var i=0 ; i<data_Fases.dataFases.length ; i++ )  {
@@ -143,7 +141,6 @@
               }
           }
           html += '</div>';
-        html += '</div>';
         
         return html;
     };

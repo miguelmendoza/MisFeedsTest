@@ -7818,3 +7818,312 @@ and (orientation: landscape) {
     margin-left: 13px;
   }
 }
+
+
+@media screen {
+    div.str_pleca_01{
+        margin-bottom:12px;
+    }
+    div.str_pleca_01_title {
+        width: 100%;
+        border-bottom: none;
+    }
+    div.str_pleca_01_title:before,
+    div.str_pleca_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.str_pleca_01_title:after {
+        clear: both;        
+    }
+    .collapsable .str_pleca_01_title {
+        position:relative;
+    }
+    div.str_pleca_01_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    div.str_pleca_01_title strong,
+    div.str_pleca_01_title h2,
+    div.str_pleca_01_title h3 {
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+        height: 40px;
+    }
+    div.str_pleca_01_title strong a,
+    div.str_pleca_01_title h2 a,
+    div.str_pleca_01_title h3 a {
+    
+        text-decoration: none;
+        line-height: 40px;
+        display: block;
+        padding:0 0 0 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .ie9 div.str_pleca_01_title strong a,
+    .ie9 div.str_pleca_01_title h2 a,
+    .ie9 div.str_pleca_01_title h3 a {  
+        *background-position-x: right 10px;
+        *background-position-y: 5px;
+    }
+    .str_pleca_01 .tvsa-caret-up,
+    .str_pleca_01 .tvsa-caret-down{
+        color: #FFFFFF;
+        font-size:35px;
+        font-weight:bold;
+        cursor:pointer;
+        display: block;
+        float: right;
+        position: absolute;
+        right: 30px;
+        top: -6px;
+    }
+}
+
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    div.str_pleca_01{
+        margin-bottom: 24px;
+        border-bottom: 1px solid #CCC;
+    }
+    div.str_pleca_01_title:before,
+    div.str_pleca_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.str_pleca_01_title:after {
+        clear: both;
+    }
+    div.str_pleca_01_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    div.str_pleca_01_title strong,
+    div.str_pleca_01_title h2,
+    div.str_pleca_01_title h3 {
+        width:47.7%;
+        min-width: 165px;
+        max-width:300px;
+        float: left;
+        height: 32px;
+    }    
+    div.str_pleca_01_title strong a,
+    div.str_pleca_01_title h2 a,
+    div.str_pleca_01_title h3 a {
+        padding:0 0 0 24px;
+        line-height: 30px;
+    }
+    div.str_pleca_01_title strong a span.icon,
+    div.str_pleca_01_title h2 a span.icon,
+    div.str_pleca_01_title h3 a span.icon {
+        display: none;
+    }
+    /* END: Global (Medium) */
+    .str_pleca_01 .tvsa-caret-up,
+    .str_pleca_01 .tvsa-caret-down{
+        display:none;   
+    }
+}
+
+
+@media screen and (min-width: 948px){
+    div.str_pleca_01{
+        margin-bottom: 24px;
+    }
+}
+
+
+@media screen {
+    .wdg_scroll_dropdown{
+		width: 100%;
+		height: auto;
+		display: block;      
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 14px;
+        height: 64px;
+    }
+	.wdg_scroll_dropdown .background-gradient-content2 {
+		background-image: none;
+		background-color: #E6E6E6;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
+        transition: all 0.2s ease-out 0s;
+	}
+    .wdg_scroll_dropdown .wdg_tennisresult_01_pleca p{
+        margin-left: 24px;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_list {
+        cursor: pointer;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_value{
+        position: relative;
+        float: left;
+        margin-left: 24px;
+        width: 81%;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click{
+        position: relative;
+        width: 10%;
+        height: 32px;
+        float: right;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+        margin-left: 13px;
+        color: #ffffff;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events{
+        width: 100%;
+        position: relative;
+        clear: both;
+        height: 0px;
+        background-color: #d3d3d3;
+        visibility: hidden;
+        overflow: hidden;
+        z-index: 500;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li p{
+        padding-left: 24px;
+    }
+    .wdg_scroll_dropdown > div{
+        float: left;
+        width: 100%;
+        height: 32px;
+        line-height: 32px;
+        clear: both;
+    }
+}
+
+
+@media screen and (min-width: 624px){
+    .wdg_scroll_dropdown{
+        width: 624px;
+        height: auto;
+        display: block;
+        margin-bottom: 0px;
+    }
+    .wdg_scroll_dropdown{
+        height: 32px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_pleca p{
+        margin-left: 24px;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_list {
+        cursor: pointer;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_value{
+        position: relative;
+        float: left;
+        margin-left: 24px;
+        width: 81%;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click{
+        position: relative;
+        width: 10%;
+        height: 32px;
+        float: right;
+        z-index: 1;
+    }
+    .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+        margin-left: 12px;
+        color: #ffffff;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events{
+        width: 100%;
+        position: relative;
+        clear: both;
+        height: 0px;
+        background-color: #d3d3d3;
+        visibility: hidden;
+        overflow: hidden;
+        z-index: 500;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .wdg_scroll_dropdown .wdg_scroll_events ul li p{
+        padding-left: 24px;
+    }
+    .wdg_scroll_dropdown > div:first-child{
+        float: left;
+        width: 298px;
+        height: 32px;
+        line-height: 32px;
+        clear: none;
+    }
+	
+	.wdg_scroll_dropdown .wdg_scroll_list{
+		width:326px;
+		clear:none;
+	}
+}
+
+
+@media screen and (min-width: 948px){
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_events{
+        z-index: 2000 !important;
+        display: block;
+    }
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_events{
+        position: absolute;
+        margin-top: 32px;
+        overflow: hidden;
+        width: 312px;;
+    }
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_elements{
+        z-index: 2000 !important;
+    }
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_elements{
+        z-index: 2000 !important;
+    }
+    .ie7 .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    }  
+    .ie8 .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    }
+
+}
