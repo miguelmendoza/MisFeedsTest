@@ -1,0 +1,14 @@
+@media screen and (min-width: 948px){    
+	
+	.ie7 .wdg_stats_res_02 .goles {
+		padding-left: 3px !important;
+	}
+	.ie7 .wdg_stats_res_02 .goles .global{
+		padding-left: 0px !important;
+	}
+	.ie8 .wdg_scroll_dropdown .wdg_tennisresult_01_click span,
+	.ie7 .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+		padding-top: 8px;
+		margin-left: 13px;
+	}
+}

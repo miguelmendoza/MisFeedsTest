@@ -1,0 +1,95 @@
+/*	
+	Document   : wdg_stats_res_02_tablet.css
+	Created on : 28/08/2013, 12:34:00 am
+	Author     : Luis Jesús Ruelas Merino
+	Description: 
+ */
+ @media screen and (min-width: 624px){
+	.wdg_stats_res_02{
+        display: block;
+		height: 100%;
+		position: relative;
+		width: 624px;
+		margin-bottom: 36px;
+		clear:both;
+	}
+
+	.wdg_stats_res_02 .result_champion{
+		margin-bottom: 24px;
+	}
+	.ie8 .wdg_stats_res_02 .result_champion,
+	.ie7 .wdg_stats_res_02 .result_champion{
+		margin-bottom: 24px;
+	}
+	.ie8 .wdg_stats_res_02,
+	.ie7 .wdg_stats_res_02{
+		margin-bottom: 12px;
+	}
+	
+	.wdg_stats_res_02 .title{
+		color:#A70A0B;
+		font-size:16px;
+		font-style:italic;
+		height:30px;
+		padding-left:50px;
+		border-bottom: 1px solid #CCC;
+		width:auto;
+		background-color:transparent;
+	}
+	
+	.wdg_stats_res_02 > ul {
+		height: 485px;
+	}
+	
+	.wdg_stats_res_02 > ul li{
+		display:block;
+	}
+	
+	
+	.wdg_stats_res_02 .arrow_buttons {
+	
+		display:block;
+	}
+        .wdg_stats_res_02 .color .circuito
+        {
+            display: block;
+        }
+	
+	.wdg_stats_res_02 .wdg_stats_res_02_verMas{
+		display: none;
+	}
+        .wdg_stats_res_02 > ul li:last-child
+        {
+            border-bottom: 1px solid #CCC !important;
+        }
+	.wdg_stats_res_02 .result_champion{
+		float:left;
+		margin-right:24px;
+		margin-left:0px;
+    }
+	.wdg_stats_res_02 .result_champion.last{
+		margin-right:0px;
+		margin-left:0px;
+    }
+    .ie7 .wdg_stats_res_02 .wdg_tennisresult_01_click,
+    .ie8 .wdg_stats_res_02 .wdg_tennisresult_01_click{
+    	width: 35px;
+    }
+    .ie7 .wdg_stats_res_02 span.time{
+    	margin-top: -24px;
+    }
+    .ie7 .wdg_stats_res_02 span.global{
+    	margin-top: -26px;
+    	padding-left: 10px !important;
+    }
+    .ie7 .wdg_stats_res_02 .goles{
+    	height: 20px !important;
+    }
+    .ie7 .wdg_stats_res_02 .equipo_played{
+    	padding-right: 25px !important;
+    }
+    .ie7 .wdg_stats_res_02 .lineaResultado{
+    	border-bottom: 0; 
+    	border-top: 1px #ccc solid;
+    }
+}
