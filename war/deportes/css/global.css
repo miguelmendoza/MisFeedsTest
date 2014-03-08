@@ -2361,16 +2361,16 @@ a.active .sprite.dropdown {
     }
 }
     .dotted-left{
-        background: url("../../img/dotted-vertical.png") repeat-y left !important;
+        background: url("../img/dotted-vertical.png") repeat-y left !important;
     }
     .dotted-right{
-        background: url("../../img/dotted-vertical.png") repeat-y right !important;
+        background: url("../img/dotted-horizontal.png") repeat-y right !important;
     }
     .dotted-top{
-        background: url("../../img/dotted-horizontal.png") repeat-x top !important;
+        background: url("../img/dotted-vertical.png") repeat-x top !important;
     }
     .dotted-bottom{
-        background: url("../../img/dotted-horizontal.png") repeat-x  bottom !important;
+        background: url("../img/dotted-horizontal.png") repeat-x  bottom !important;
     }
 /*TERMINA ELEMENTOS HIDE*/
 
